@@ -19,6 +19,13 @@ const Nav = () => {
         </li>
         <li><a href="#">Page 2</a></li>
       </ul>
+      <form className="navbar-form navbar-left" action="/action_page.php">
+  <div className="form-group">
+    <input type="text" className="form-control" placeholder="Search" name="search" />
+  </div>
+  <button type="submit" className="btn btn-default">Submit</button>
+</form>
+
       <ul className="nav navbar-nav navbar-right">
         <li><a href="#"><span className="glyphicon glyphicon-user" /> Sign Up</a></li>
         <li><a href="#"><span className="glyphicon glyphicon-log-in" /> Login</a></li>
