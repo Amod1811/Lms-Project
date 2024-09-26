@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Component/Nav';
 import Nav1 from './Component/Nav1';
 import Login from './Component/Login';
+import SignUp from './Component/SignUp';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Nav/>
       <Login/>
     <Nav1/>
+    <SignUp/>
     </>
   );
 }
