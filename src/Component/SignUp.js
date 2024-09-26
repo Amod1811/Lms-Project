@@ -13,7 +13,7 @@ const SignUp = () => {
     <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
   </div>
   <div className="mb-3">
-    <label htmlFor="pwd" className="form-label">Password:</label>
+    <label htmlFor="pwd" className="form-label">Mobile no.:</label>
     <input type="password" className="form-control" id="pwd" placeholder="Enter password" name="pswd" />
   </div>
   <div className="form-check mb-3">
