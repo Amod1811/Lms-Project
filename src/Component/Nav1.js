@@ -34,7 +34,6 @@ const Nav1 = () => {
     </div>
   </nav>
 </div>
-   
   )
 }
 
