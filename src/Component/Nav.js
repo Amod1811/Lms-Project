@@ -10,14 +10,21 @@ const Nav = () => {
       </div>
       <ul className="nav navbar-nav">
         <li className="active"><a href="#">Home</a></li>
-        <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span className="caret" /></a>
+        <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">Cources<span className="caret" /></a>
           <ul className="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
+            <li><a href="#">Networking</a></li>
+            <li><a href="#">Frontend</a></li>
+            <li><a href="#">Backend</a></li>
+            <li><a href="#">Graphics</a></li>
+            <li><a href="#">Digital Marketing</a></li>
           </ul>
         </li>
-        <li><a href="#">Page 2</a></li>
+        <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="#">Packages<span className="caret" /></a>
+        <ul className="dropdown-menu">
+            <li><a href="#">MERN </a></li>
+            
+          </ul>
+        </li>
       </ul>
       <form className="navbar-form navbar-left" action="/action_page.php">
   <div className="form-group">
