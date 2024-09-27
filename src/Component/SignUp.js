@@ -21,7 +21,7 @@ const SignUp = () => {
       <input className="form-check-input" type="checkbox" name="remember" /> Remember me
     </label>
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-primary">Register</button>
 </form>
 
     </div>
