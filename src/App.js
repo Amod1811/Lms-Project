@@ -4,6 +4,7 @@ import Nav from './Component/Nav';
 import Nav1 from './Component/Nav1';
 import Login from './Component/Login';
 import SignUp from './Component/SignUp';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
      
       
     <Nav1/>
-   
+   <Footer/>
     </>
   );
 }
