@@ -28,16 +28,12 @@ const Nav1 = () => {
 </form>
 
       <ul className="nav navbar-nav navbar-right">
-        <li>
-            <img src="../user 1.png" alt="" />
-        </li>
-        <li>
-            <img src="" alt="" />
-        </li>
+        <li><a href="#"><span className="glyphicon glyphicon-user" /> Sign Up</a></li>
+        <li><a href="#"><span className="glyphicon glyphicon-log-in" /> Login</a></li>
       </ul>
     </div>
   </nav>
-</div> 
+</div>
   )
 }
 

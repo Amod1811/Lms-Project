@@ -8,10 +8,10 @@ import SignUp from './Component/SignUp';
 function App() {
   return (
     <>
-     <Nav/>
-      <Login/>
+     
+      
     <Nav1/>
-    <SignUp/>
+   
     </>
   );
 }
