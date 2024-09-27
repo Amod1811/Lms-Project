@@ -29,7 +29,7 @@ const Nav1 = () => {
 
       <ul className="nav navbar-nav navbar-right">
         <li>
-            <img src="" alt="" />
+            <img src="../user 1.png" alt="" />
         </li>
         <li>
             <img src="" alt="" />
@@ -37,7 +37,6 @@ const Nav1 = () => {
       </ul>
     </div>
   </nav>
-  
 </div> 
   )
 }
