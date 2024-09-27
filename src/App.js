@@ -5,6 +5,7 @@ import Nav1 from './Component/Nav1';
 import Login from './Component/Login';
 import SignUp from './Component/SignUp';
 import Footer from './Component/Footer';
+import Home from './Component/Home';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      
       
     <Nav1/>
+    <Home/>
    <Footer/>
     </>
   );
