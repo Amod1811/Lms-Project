@@ -559,10 +559,10 @@ const Nav = () => {
         <div className="dropdown ms-1 ms-lg-0">
           <a className="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
         
-                <img className="avatar-img rounded-circle" src="assets/images/avatar/user 1.png" alt="avatar" />
-              
-            <img className="avatar-img rounded-circle" src="assets/images/avatar/cart1.png" alt="avatar" />
-            
+          <ul className="navbar-nav">
+          <li className="nav-item">Login</li>&nbsp;
+          <li className="nav-item">SignUp</li>    
+          </ul>
          
           </a>
           <ul className="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3" aria-labelledby="profileDropdown">

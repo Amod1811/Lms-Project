@@ -1,10 +1,12 @@
 import React from 'react'
+import Cart from './Cart';
+import Userimg from './Userimg';
 
 const Nav1 = () => {
   return (
-<div>
-  {/* Header START */}
-  <header className="navbar-light navbar-sticky header-static">
+    <div>
+   {/* Header START */}
+   <header className="navbar-light navbar-sticky header-static">
     {/* Nav START */}
     <nav className="navbar navbar-expand-xl">
       <div className="container-fluid px-3 px-xl-5">
@@ -559,10 +561,15 @@ const Nav1 = () => {
         <div className="dropdown ms-1 ms-lg-0">
           <a className="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
         
-                <img className="avatar-img rounded-circle" src="assets/images/avatar/user 1.png" alt="avatar" />
-              
-            <img className="avatar-img rounded-circle" src="assets/images/avatar/cart1.png" alt="avatar" />
-            
+          <ul className="navbar-nav">
+          <li className="nav-item">
+          <Userimg />
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li className="nav-item">
+          <Cart />
+        </li>
+        
+      </ul>
          
           </a>
           <ul className="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3" aria-labelledby="profileDropdown">
@@ -625,3 +632,4 @@ const Nav1 = () => {
 }
 
 export default Nav1
+
