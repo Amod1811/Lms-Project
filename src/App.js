@@ -12,7 +12,7 @@ function App() {
   return (
     <>
      
-      
+      <Nav/>
     <Nav1/>
     <Home/>
     <CourseCategory/>
